@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ace89370876474abbf8e2029a07212, type: 3}
+  m_Name: ResourcesConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ResourcesConfig
+  <ResourceVacuumSettings>k__BackingField:
+    <AttractionSpeed>k__BackingField: 4
+    <RotationSpeed>k__BackingField: 180
+    <MaxAttractionDistance>k__BackingField: 10
+    <PickupDistance>k__BackingField: 0.8
+    <SpeedCurve>k__BackingField:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  <Datas>k__BackingField:
+  - id: Plastic_1
+    <Type>k__BackingField: 101
+    <Prefab>k__BackingField: {fileID: 5924981501341639179, guid: c79988cba5327e543a58ca9cc1bb6391, type: 3}
+    <Value>k__BackingField: 1
+    <LoadValue>k__BackingField: 1
+    <BuoyancySettings>k__BackingField:
+      <Density>k__BackingField: 200
+      <TerminalVelocity>k__BackingField: 10
+      <WaterDrag>k__BackingField: 1
+      <WaterAngularDrag>k__BackingField: 1
+      BuoyancyForce: 0.007848001
+    AttractionSpeed: 4
+    RotationSpeed: 180
+    MaxAttractionDistance: 10
+    PickupDistance: 0.8
+    SpeedCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: Plastic_2
+    <Type>k__BackingField: 101
+    <Prefab>k__BackingField: {fileID: 5924981501341639179, guid: 2bf0b7080c68cf44ab0d314a4a3923f7, type: 3}
+    <Value>k__BackingField: 2
+    <LoadValue>k__BackingField: 2
+    <BuoyancySettings>k__BackingField:
+      <Density>k__BackingField: 200
+      <TerminalVelocity>k__BackingField: 7
+      <WaterDrag>k__BackingField: 1
+      <WaterAngularDrag>k__BackingField: 1
+      BuoyancyForce: 0.007848001
+    AttractionSpeed: 4
+    RotationSpeed: 180
+    MaxAttractionDistance: 10
+    PickupDistance: 0.8
+    SpeedCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: Plastic_5
+    <Type>k__BackingField: 101
+    <Prefab>k__BackingField: {fileID: 7946228846076755298, guid: d1aef579ec030e044a0997c3b1de8d91, type: 3}
+    <Value>k__BackingField: 5
+    <LoadValue>k__BackingField: 5
+    <BuoyancySettings>k__BackingField:
+      <Density>k__BackingField: 800
+      <TerminalVelocity>k__BackingField: 5
+      <WaterDrag>k__BackingField: 2
+      <WaterAngularDrag>k__BackingField: 1
+      BuoyancyForce: -57.099236
+    AttractionSpeed: 4
+    RotationSpeed: 180
+    MaxAttractionDistance: 10
+    PickupDistance: 0.8
+    SpeedCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: Metall_3
+    <Type>k__BackingField: 102
+    <Prefab>k__BackingField: {fileID: 4867694788304180316, guid: 53fab9c622dc8794f8f811b6bc3860f2, type: 3}
+    <Value>k__BackingField: 3
+    <LoadValue>k__BackingField: 30
+    <BuoyancySettings>k__BackingField:
+      <Density>k__BackingField: 6000
+      <TerminalVelocity>k__BackingField: 5
+      <WaterDrag>k__BackingField: 2
+      <WaterAngularDrag>k__BackingField: 1
+      BuoyancyForce: -0.049050007
+    AttractionSpeed: 4
+    RotationSpeed: 180
+    MaxAttractionDistance: 10
+    PickupDistance: 0.8
+    SpeedCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16a6599b0555f14b89346ee99d9ca2d, type: 3}
+  m_Name: FishesConfig
+  m_EditorClassIdentifier: Assembly-CSharp::FishesConfig
+  <FishDatas>k__BackingField:
+  - Id: ClownFish
+    <EntityType>k__BackingField: 100
+    <FishPrefab>k__BackingField: {fileID: -6884534327477980146, guid: 2c41516ebabb824469b30365a33626c8, type: 3}
+    <StartHealth>k__BackingField: 2
+    <SwimSpeed>k__BackingField: 40
+    <PanicSpeed>k__BackingField: 50
+    <RotationSpeed>k__BackingField: 100
+    <MovementPlaneHeight>k__BackingField: 0.5
+    <IdleWaitProbability>k__BackingField: 0.3
+    <MinWaitTime>k__BackingField: 1
+    <MaxWaitTime>k__BackingField: 3
+    <ObstacleDetectionRadius>k__BackingField: 0.5
+    <FishAvoidanceRadius>k__BackingField: 0.5
+    obstacleMask:
+      serializedVersion: 2
+      m_Bits: 456
+    <PanicRadius>k__BackingField: 15
+    <PanicDuration>k__BackingField: 3
+    <PlayerDetectionRadius>k__BackingField: 5
+    <MaxPanicAngle>k__BackingField: 45
+  - Id: GoldenFish
+    <EntityType>k__BackingField: 101
+    <FishPrefab>k__BackingField: {fileID: -5855453738420048008, guid: 60c5495681e97dc45b5e2c0bc54c9499, type: 3}
+    <StartHealth>k__BackingField: 4
+    <SwimSpeed>k__BackingField: 40
+    <PanicSpeed>k__BackingField: 50
+    <RotationSpeed>k__BackingField: 100
+    <MovementPlaneHeight>k__BackingField: 0.5
+    <IdleWaitProbability>k__BackingField: 0.3
+    <MinWaitTime>k__BackingField: 1
+    <MaxWaitTime>k__BackingField: 3
+    <ObstacleDetectionRadius>k__BackingField: 2
+    <FishAvoidanceRadius>k__BackingField: 1.5
+    obstacleMask:
+      serializedVersion: 2
+      m_Bits: 456
+    <PanicRadius>k__BackingField: 15
+    <PanicDuration>k__BackingField: 3
+    <PlayerDetectionRadius>k__BackingField: 5
+    <MaxPanicAngle>k__BackingField: 45
+  - Id: TroutFish
+    <EntityType>k__BackingField: 102
+    <FishPrefab>k__BackingField: {fileID: 2216294792974970537, guid: 3cda131a4ec8e0e44ad1ecbb7cd13de2, type: 3}
+    <StartHealth>k__BackingField: 3
+    <SwimSpeed>k__BackingField: 40
+    <PanicSpeed>k__BackingField: 50
+    <RotationSpeed>k__BackingField: 100
+    <MovementPlaneHeight>k__BackingField: 0.5
+    <IdleWaitProbability>k__BackingField: 0.3
+    <MinWaitTime>k__BackingField: 1
+    <MaxWaitTime>k__BackingField: 3
+    <ObstacleDetectionRadius>k__BackingField: 2
+    <FishAvoidanceRadius>k__BackingField: 1.5
+    obstacleMask:
+      serializedVersion: 2
+      m_Bits: 456
+    <PanicRadius>k__BackingField: 15
+    <PanicDuration>k__BackingField: 3
+    <PlayerDetectionRadius>k__BackingField: 5
+    <MaxPanicAngle>k__BackingField: 45

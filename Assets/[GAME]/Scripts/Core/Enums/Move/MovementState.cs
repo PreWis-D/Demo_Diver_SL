@@ -1,0 +1,6 @@
+﻿public enum MovementState
+{
+    None = 0,
+    Idle = 1,
+    Move = 2,
+}

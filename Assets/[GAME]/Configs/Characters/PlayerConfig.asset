@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14d852591a80ea048b83ed30419928d6, type: 3}
+  m_Name: PlayerConfig
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterConfig
+  <EntityType>k__BackingField: 1
+  <MovementData>k__BackingField:
+    <WaterRotateSpeed>k__BackingField: 20
+    <WaterRotateSpeedSmooth>k__BackingField: 0.4
+    <WaterMoveStopSpeed>k__BackingField: 4
+    <CurveJumpRaft>k__BackingField:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 3.6131508
+        outSlope: 3.6131508
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.27481318
+        value: 0.99294144
+        inSlope: 0.01583733
+        outSlope: 0.01583733
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.10067294
+      - serializedVersion: 3
+        time: 0.87637556
+        value: 1.0005286
+        inSlope: -0.079348706
+        outSlope: -0.079348706
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.050224923
+        outWeight: 0.4618196
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -8.09329
+        outSlope: -8.09329
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    <HeightLadderToGround>k__BackingField: 0.66
+    <SpeedLadderToGround>k__BackingField: 0.6
+    <JumpForce>k__BackingField: 0.75
+    <GravityScale>k__BackingField: 1.5
+    <AirControlSpeed>k__BackingField: 5
+    <AirControlAcceleration>k__BackingField: 20
+    <AirRotationSmoothTime>k__BackingField: 0.25
+    <MaxAirRotationSpeed>k__BackingField: 720
+    <HorizontalHeight>k__BackingField: 2
+    <HorizontalRadius>k__BackingField: 0.5
+    <HorizontalCenter>k__BackingField: {x: 0, y: 1, z: 0}
+    <VerticalHeight>k__BackingField: 1.8
+    <VerticalRadius>k__BackingField: 0.4
+    <VerticalCenter>k__BackingField: {x: 0, y: 0.9, z: 0}
+  <VacuumData>k__BackingField:
+    <QuickPickupRadius>k__BackingField: 2
+    <QuickPickupDuration>k__BackingField: 0.15
+    <MaxVacuumRadius>k__BackingField: 3
+    <VacuumGrowthSpeed>k__BackingField: 5
+    <VacuumForce>k__BackingField: 15
+    <itemLayer>k__BackingField:
+      serializedVersion: 2
+      m_Bits: 128
+  <Params>k__BackingField:
+  - Id: Health
+    <Type>k__BackingField: 1
+    <Value>k__BackingField: 100
+  - Id: Speed
+    <Type>k__BackingField: 2
+    <Value>k__BackingField: 3
+  - Id: Stamina
+    <Type>k__BackingField: 3
+    <Value>k__BackingField: 3
+  - Id: SprintSpeed
+    <Type>k__BackingField: 4
+    <Value>k__BackingField: 5
+  - Id: SpeedInWater
+    <Type>k__BackingField: 5
+    <Value>k__BackingField: 1
+  - Id: Workload
+    <Type>k__BackingField: 6
+    <Value>k__BackingField: 100
